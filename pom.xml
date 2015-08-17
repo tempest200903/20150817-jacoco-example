@@ -15,7 +15,7 @@
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   <plugin.version.jacoco>0.7.4.201502262128</plugin.version.jacoco>
   <!-- jacocoArgs プロパティを自分で定義すると、カバレッジ計測が失敗する。 -->
-  <jacocoArgs></jacocoArgs>
+  <!-- <jacocoArgs></jacocoArgs> -->
  </properties>
 
  <dependencies>

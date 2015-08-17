@@ -23,10 +23,10 @@ $ cygstart src/resources/WS-y2015-0560.JPG
 
 ![スクリーンショット](https://raw.githubusercontent.com/tempest200903/20150817-jacoco-example/master/src/resources/WS-y2015-0560.JPG "スクリーンショット")
 
-## 失敗例1 ##
+## 失敗例1 jacocoArgs プロパティを自分で定義する ##
 
 ```
-$ git checkout xxxx
+$ git checkout 0ed0543b502479bb70e061696ba22f5bdc3e4358
 $ fgrep -C 4 '<jacocoArgs>' pom.xml
  <properties>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
