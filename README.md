@@ -14,3 +14,5 @@ $ cygstart target/site/jacoco/index.html
 
 $ cygstart src/resources/WS-y2015-0560.JPG
 
+![スクリーンショット](https://raw.githubusercontent.com/tempest200903/20150817-jacoco-example/master/src/resources/WS-y2015-0560.JPG "スクリーンショット")
+
