@@ -41,3 +41,10 @@ $ cygstart src/resources/WS-y2015-0560.JPG
 
 ![スクリーンショット](https://raw.githubusercontent.com/tempest200903/20150817-jacoco-example/master/src/resources/WS-y2015-0561.JPG "スクリーンショット")
 
+## 失敗例2 maven-surefire-plugin argLine に ${jacocoArgs} を記していない ##
+
+```
+$ mvn clean test site
+$ ls target/site/jacoco/index.html
+ls: cannot access target/site/jacoco/index.html: No such file or directory
+```
