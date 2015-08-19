@@ -2,7 +2,7 @@
 
 ## git clone ##
 
-git clone https://github.com/tempest200903/20150817-jacoco-example.git
+* git clone https://github.com/tempest200903/20150817-jacoco-example.git
 
 ## JaCoCoカバレッジレポート計測実行手順 ##
 
@@ -42,6 +42,8 @@ $ cygstart src/resources/WS-y2015-0560.JPG
 ![スクリーンショット](https://raw.githubusercontent.com/tempest200903/20150817-jacoco-example/master/src/resources/WS-y2015-0561.JPG "スクリーンショット")
 
 ## 失敗例2 maven-surefire-plugin argLine に ${jacocoArgs} を記していない ##
+
+* https://github.com/tempest200903/20150817-jacoco-example/commit/06c98a134d25913d5e4befff0dc39bb4d3baf224
 
 ```
 $ mvn clean test site

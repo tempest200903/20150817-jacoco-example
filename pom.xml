@@ -55,7 +55,7 @@
     <version>2.18</version>
     <configuration>
      <!-- ## 失敗例2 maven-surefire-plugin argLine に ${jacocoArgs} を記していない ## -->
-     <!-- <argLine>${jacocoArgs}</argLine> -->
+     <argLine>${jacocoArgs}</argLine>
     </configuration>
    </plugin>
 
